@@ -1,0 +1,59 @@
+
+  .navList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .gridContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr;
+    row-gap: 1em;
+  }
+
+  .aboutMeSection{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 15% 85%;
+  }
+  #myPhoto{
+    grid-row: 1/-1;
+    grid-column: 1/2;
+  }
+
+  #aboutMeHeader{
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+
+  #aboutMeText{
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+
+.skillsAndProjects {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 67% 33%;
+    column-gap: 1em;
+}
+
+.skillsSection {
+    grid-column: 2/3;
+}
+
+.projectsSection {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 6em auto auto auto;
+    row-gap: 1em;
+}
+nav {
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}

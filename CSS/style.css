@@ -1,0 +1,84 @@
+
+:root {
+    --black:#31393C;
+    --darkBlue: #2176FF;
+    --lightBlue: #33A1FD;
+    --yellow: #FDCA40;
+    --orange: #F79824;
+}
+
+body{
+    text-align: center;
+    font-size: 22px;
+    background-color: var(--black);
+    color: var(--lightBlue)
+}
+
+#name{
+    overflow: hidden;
+}
+.mainHeader{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.mainHeader h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+    color: var(--orange);
+}
+.mainHeader h3{
+    font-size: 50px;
+    color: var(--darkBlue);
+}
+.skillsSection li{
+    list-style: none;
+}
+
+h3{
+    font-size: 50px;
+    color: var(--yellow)
+}
+
+a:link{
+    color:var(--orange);
+}
+
+a:visited{
+    color:var(--yellow);
+}
+
+a:hover{
+    color:var(--darkBlue);
+    border: 2px dashed var(--orange);
+}
+nav {
+    background-color: var(--darkBlue);
+    margin: 0;
+    padding: 0;
+}
+
+.projects{
+    background-color: var(--lightBlue);
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px 0px black;
+
+}
+.skillsSection {
+    background-color: var(--lightBlue);
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px 0px black;
+}
+.aboutMeSection {
+    background-color: var(--lightBlue);
+    color: var(--black);
+    border: 1px solid var(--black);
+    border-radius: 100px;
+    box-shadow: 1px 1px 1px 0px black;
+}
