@@ -1,5 +1,6 @@
 * {
     font-family: Lexend, Calibri, Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 :root {
     --lightBlue:#67b4f3;
@@ -8,13 +9,15 @@
     --black: #0b0909;
     --gunmetal: #31393c;
     --white:#f5ebf4;
+    --bgGradient: linear-gradient(to bottom right, #67b4f3, #f5ebf4);
 }
 
 body{
     text-align: center;
     font-size: 22px;
-    background-color: var(--lightBlue);
-    color: var(--gunmetal)
+    /* background-color: var(--lightBlue); */
+    background: var(--bgGradient);
+    color: var(--gunmetal);
 }
 
 .mainHeader{
