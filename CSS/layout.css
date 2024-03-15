@@ -15,7 +15,7 @@
   .aboutMeSection{
     grid-row: 2/3;
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: 15% 85%;
   }
   #myPhoto{
@@ -42,6 +42,7 @@
 
 .skillsSection {
     grid-column: 2/3;
+    
 }
 
 .projectsSection {

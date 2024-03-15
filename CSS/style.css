@@ -1,22 +1,22 @@
-
+* {
+    font-family: Lexend, Calibri, Verdana, Geneva, Tahoma, sans-serif;
+}
 :root {
-    --black:#31393C;
-    --darkBlue: #2176FF;
-    --lightBlue: #33A1FD;
-    --yellow: #FDCA40;
-    --orange: #F79824;
+    --lightBlue:#67b4f3;
+    --darkGray: #44444c;
+    --lightGray: #8c8c8c;
+    --black: #0b0909;
+    --gunmetal: #31393c;
+    --white:#f5ebf4;
 }
 
 body{
     text-align: center;
     font-size: 22px;
-    background-color: var(--black);
-    color: var(--lightBlue)
+    background-color: var(--lightBlue);
+    color: var(--gunmetal)
 }
 
-#name{
-    overflow: hidden;
-}
 .mainHeader{
     margin-top: 0px;
     padding-top: 0px;
@@ -27,58 +27,98 @@ body{
 .mainHeader h1{
     font-size: 100px;
     margin-bottom: 0px;
-    color: var(--orange);
+    color: var(--gunmetal);
 }
 .mainHeader h3{
     font-size: 50px;
-    color: var(--darkBlue);
+    color: var(--darkGray);
 }
+
 .skillsSection li{
     list-style: none;
+    padding-right: 10%;
 }
 
 h3{
     font-size: 50px;
-    color: var(--yellow)
+    color: var(--black)
 }
 
 a:link{
-    color:var(--orange);
+    color:var(--lightBlue);
 }
 
 a:visited{
-    color:var(--yellow);
+    color:var(--black);
 }
 
 a:hover{
-    color:var(--darkBlue);
-    border: 2px dashed var(--orange);
+    color:var(--darkGray);
 }
 nav {
-    background-color: var(--darkBlue);
+    background-color: var(--black);
     margin: 0;
     padding: 0;
+    border: 1px solid var(--lightBlue);
+}
+.projectsSection{
+background-color: var(--darkGray);
+    color: var(--gunmetal);
+    box-shadow: 1px 1px 1px 0px black;
 }
 
 .projects{
-    background-color: var(--lightBlue);
-    color: var(--black);
+    background-color: var(--lightGray);
+    color: var(--gunmetal);
     border: 1px solid var(--black);
-    border-radius: 100px;
     box-shadow: 1px 1px 1px 0px black;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 
 }
 .skillsSection {
-    background-color: var(--lightBlue);
-    color: var(--black);
-    border: 1px solid var(--black);
-    border-radius: 100px;
+    margin-right: 4%;
+    background-color: var(--darkGray);
+    color: var(--gunmetal);
     box-shadow: 1px 1px 1px 0px black;
 }
-.aboutMeSection {
-    background-color: var(--lightBlue);
-    color: var(--black);
-    border: 1px solid var(--black);
-    border-radius: 100px;
+#skillsList {
+    background-color: var(--lightGray);
+    color: var(--white);
     box-shadow: 1px 1px 1px 0px black;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+#otherSkills {
+    background-color: var(--lightGray);
+    color: var(--white);
+    box-shadow: 1px 1px 1px 0px black;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+.aboutMeSection {
+    background-color: var(--darkGray);
+    color: var(--black);
+    box-shadow: 1px 1px 1px 0px black;
+}
+#aboutMeText {
+    background-color: var(--lightGray);
+    color: var(--white);
+    box-shadow: 1px 1px 1px 0px black;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+#myPhoto {
+    background-color: var(--lightGray);
+    color: var(--white);
+    border: 25px solid var(--darkGray);
+    margin: 2.5%;
+}
+#plateUpLogo {
+    height: 10em;
+    align-items: center;
+}
+#plateUpGame {
+    height: 13em;
+    align-items: center;
 }
