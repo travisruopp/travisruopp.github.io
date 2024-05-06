@@ -46,17 +46,20 @@ h3{
     font-size: 50px;
     color: var(--black)
 }
+h4{
+    color: var(--darkGray)
+}
 
 a:link{
     color:var(--lightBlue);
 }
 
 a:visited{
-    color:var(--black);
+    color:var(--white);
 }
 
 a:hover{
-    color:var(--darkGray);
+    color:var(--lightGray);
 }
 nav {
     background-color: var(--black);
@@ -72,7 +75,7 @@ background-color: var(--darkGray);
 
 .projects{
     background-color: var(--lightGray);
-    color: var(--gunmetal);
+    color: var(--white);
     border: 1px solid var(--black);
     box-shadow: 1px 1px 1px 0px black;
     margin-right: 2.5%;
