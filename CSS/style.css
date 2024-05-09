@@ -115,10 +115,7 @@ background-color: var(--darkGray);
     margin-left: 2.5%;
 }
 #myPhoto {
-    background-color: var(--lightGray);
-    color: var(--white);
-    border: 25px solid var(--darkGray);
-    margin: 2.5%;
+    
 }
 #plateUpLogo {
     height: 10em;
@@ -127,4 +124,10 @@ background-color: var(--darkGray);
 #plateUpGame {
     height: 13em;
     align-items: center;
+}
+#myPhoto{
+    width: 80%;
+    height: 80%;
+    align-content: center;
+    margin: 10%;
 }
