@@ -114,9 +114,6 @@ background-color: var(--darkGray);
     margin-right: 2.5%;
     margin-left: 2.5%;
 }
-#myPhoto {
-    
-}
 #plateUpLogo {
     height: 10em;
     align-items: center;
@@ -126,7 +123,8 @@ background-color: var(--darkGray);
     align-items: center;
 }
 #myPhoto{
-    width: 300px;
+    height: 90%;
+    width: 90%;
     align-content: center;
     margin: 10%;
 }
